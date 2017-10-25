@@ -34,4 +34,4 @@ axis(2,tick=FALSE)
 
 text(2017.6,o[54],"OECD \n Europe",cex=1.5)
 text(2017.6,r[54],"Russia",cex=1.5)
-text(2013.6,150,"Consumer Price Index",cex=2)
+text(2014,150,"Consumer Price Index",cex=2)
