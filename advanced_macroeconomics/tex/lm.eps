@@ -1,0 +1,217 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%BoundingBox: 0 0 1125 762
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+/bg { 1 1 1 srgb } def
+0.00 0.00 1125.00 762.00 r p2
+72.00 72.00 1096.20 733.20 cl
+/bg { 0 0 0 srgb } def
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+785.76 341.08 4.05 c p3
+941.48 316.07 4.05 c p3
+879.19 371.59 4.05 c p3
+952.38 474.12 4.05 c p3
+1058.27 398.10 4.05 c p3
+894.76 436.11 4.05 c p3
+757.73 393.10 4.05 c p3
+368.43 437.61 4.05 c p3
+187.79 465.62 4.05 c p3
+391.79 310.07 4.05 c p3
+142.63 306.06 4.05 c p3
+592.66 298.06 4.05 c p3
+787.31 349.08 4.05 c p3
+774.86 362.08 4.05 c p3
+640.94 397.10 4.05 c p3
+689.21 442.11 4.05 c p3
+777.97 314.07 4.05 c p3
+672.08 409.10 4.05 c p3
+770.19 390.09 4.05 c p3
+782.64 550.65 4.05 c p3
+782.64 545.15 4.05 c p3
+977.29 465.62 4.05 c p3
+1020.89 487.13 4.05 c p3
+1022.45 590.17 4.05 c p3
+1000.65 502.13 4.05 c p3
+1020.89 599.67 4.05 c p3
+1022.45 524.14 4.05 c p3
+1002.21 533.65 4.05 c p3
+989.75 561.16 4.05 c p3
+938.36 505.14 4.05 c p3
+779.53 345.08 4.05 c p3
+784.20 708.71 4.05 c p3
+776.41 453.12 4.05 c p3
+697.00 335.57 4.05 c p3
+510.13 378.09 4.05 c p3
+162.88 455.12 4.05 c p3
+270.32 392.10 4.05 c p3
+711.01 513.64 4.05 c p3
+109.93 267.55 4.05 c p3
+628.48 294.56 4.05 c p3
+777.97 96.49 4.05 c p3
+768.63 171.02 4.05 c p3
+762.40 325.07 4.05 c p3
+785.76 341.58 4.05 c p3
+807.56 406.60 4.05 c p3
+776.41 406.10 4.05 c p3
+779.53 434.11 4.05 c p3
+765.51 397.60 4.05 c p3
+749.94 555.15 4.05 c p3
+774.86 474.62 4.05 c p3
+774.86 246.04 4.05 c p3
+793.54 451.12 4.05 c p3
+802.89 406.60 4.05 c p3
+774.86 483.13 4.05 c p3
+787.31 369.59 4.05 c p3
+771.74 365.09 4.05 c p3
+767.07 298.06 4.05 c p3
+763.96 448.12 4.05 c p3
+781.09 455.62 4.05 c p3
+773.30 389.09 4.05 c p3
+788.87 470.12 4.05 c p3
+777.97 427.61 4.05 c p3
+784.20 254.05 4.05 c p3
+784.20 156.01 4.05 c p3
+785.76 474.12 4.05 c p3
+785.76 363.08 4.05 c p3
+790.43 279.05 4.05 c p3
+872.96 215.03 4.05 c p3
+785.76 509.14 4.05 c p3
+790.43 366.59 4.05 c p3
+804.44 449.12 4.05 c p3
+896.32 455.62 4.05 c p3
+896.32 317.07 4.05 c p3
+874.52 469.12 4.05 c p3
+0.00 0.00 1125.00 762.00 cl
+/Font1 findfont 24 s
+0 0 0 srgb
+584.10 17.28 (D.i) .5 0 t
+25.92 402.60 (D.gdp) .5 90 t
+0.00 0.00 1125.00 762.00 cl
+/Font1 findfont 24 s
+0 0 0 srgb
+78.79 46.08 (-1.5) .5 0 t
+312.37 46.08 (-1.0) .5 0 t
+545.95 46.08 (-0.5) .5 0 t
+779.53 46.08 (0.0) .5 0 t
+1013.11 46.08 (0.5) .5 0 t
+72.00 65.86 (-0.2) 1 0 t
+72.00 165.90 (0.0) 1 0 t
+72.00 265.94 (0.2) 1 0 t
+72.00 365.97 (0.4) 1 0 t
+72.00 466.01 (0.6) 1 0 t
+72.00 566.04 (0.8) 1 0 t
+72.00 666.08 (1.0) 1 0 t
+72.00 72.00 1096.20 733.20 cl
+0 0 0 srgb
+1.12 setlinewidth
+[ 3.38 5.62] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+72.00 314.08 m
+1024.20 135.47 l
+o
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
